@@ -1702,7 +1702,7 @@ Banner CSS
   .banner-area {
     max-height: 55rem;
     /* padding-top: rem; */
-    padding-bottom: 15.3125rem;
+    /* padding-bottom: 15.3125rem; */
   }
 }
 .banner-area .banner-shape-2 {
@@ -1838,13 +1838,13 @@ Banner CSS
   }
 }
 .banner-right .banner-shapes2 {
-  top: 8.75rem;
+  /* top: 8.75rem; */
   left: 0;
   position: absolute;
 }
 @media screen and (min-width: 992px) {
   .banner-right .banner-shapes2 {
-    top: 10.625rem;
+    /* top: 10.625rem; */
   }
 }
 .banner-right .banner-shapes3 {
@@ -5549,4 +5549,16 @@ margin-top: 10px;
 }
 .features-content h2{
   opacity:0.9;
+}
+.graphics{
+  max-width:70%;
+  padding-top: 1.25rem;
+
+}
+.graphics2{
+  max-width:80%;
+
+}
+.bg{
+  background-color: #f0eff252;
 }
